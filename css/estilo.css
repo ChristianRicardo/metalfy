@@ -1,0 +1,154 @@
+body{
+	background:url('../imagens/fundo.jpeg');		
+					background-attachment: fixed;
+					font-family:  Helvetica, Arial, sans-serif;
+}
+body,html, #principal{
+	height: 100%;
+}
+
+.navbar-light{
+	background:rgba(0,0,0,0.6);
+	padding-top:15px;
+	padding-bottom: 15px;
+
+}
+.navbar-nav .nav-item .nav-link{
+	color:white;
+}
+
+.navbar-nav .nav-item .nav-link:hover{
+	color:#6a92a5;
+
+}
+.divisor{
+	width: 1px;
+	background: white;
+	margin:12px 15px;
+}
+
+#postagens{
+	background: black;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	color: white;
+}
+#postagens img{
+	height: 100%;
+	width: 100%;
+	border-radius: 5px;
+	box-shadow: 5px 5px grey;
+	padding-top: 10px;
+
+}
+
+
+.rip{
+	padding-top: 10px;
+
+}
+
+
+.conteudoprincipal{
+	text-align: center;	
+}
+.conteudoprincipal h1{
+	font-weight: 900;
+	color: white;
+	margin-bottom: 15px;
+	letter-spacing: -0.05em;
+
+	}
+
+#postagens h2{
+	padding-top: 10px;
+	font-size: 3em;
+	font-weight: 700;
+	color: #3967b2;
+}
+
+ #postagens h3{
+	font-size: 2em;
+	font-weight: 700;
+	color: #3967b2;
+}
+
+.btn-personal{
+	color: white;
+	border-radius: 400px;
+	text-transform: uppercase;
+	transition: background 0.4s, color 0.4s;
+	padding:10px 15px;
+}
+.btn-cor1{
+	background: #a442f4;
+}
+
+.btn-cor2{
+	background: #8fbf46;
+}
+
+.carousel-control-next, .carousel-control-prev{
+	width: 5%;
+
+}
+
+/**footer**/
+footer{
+	background:black;
+	padding: 50px 0px 20px 0px;
+	position: relative;
+}
+footer h4{
+	color: #3967b2;
+}
+
+footer .navbar-nav a{
+	color:white;
+	font-size: 0.8em;
+}
+
+footer .navbar-nav a:hover{
+	color:#9bf0e1;
+	font-size: 0.8em;
+	text-decoration: none;
+}
+
+footer ul{
+	list-style: none;
+}
+
+footer ul li{
+	float:right;
+	margin: 0 10px;
+}
+
+
+/* Extra small devices (portrait phones, less than 576px)**/
+@media (max-width: 575.98px) { 
+	.btn-personal{margin:10px 15px;}
+ }
+
+/* Small devices (landscape phones, 576px and up)**/
+@media (min-width: 576px) and (max-width: 767.98px) { 
+	.conteudoprincipal h1{font-size: 3em;}
+	.btn-personal{margin:10px 15px;}
+ }
+
+/* Medium devices (tablets, 768px and up) **/
+@media (min-width: 768px) and (max-width: 991.98px) { 
+	.conteudoprincipal h1 {font-size: 4em;}
+	.btn-personal{margin:10px 15px;}
+ }
+
+/* Large devices (desktops, 992px and up) **/
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+	.conteudoprincipal h1{font-size: 5em;}
+	.btn-personal{margin:10px 15px;}
+ }
+
+/* Extra large devices (large desktops, 1200px and up)**/
+@media (min-width: 1200px) { 
+	.conteudoprincipal h1{font-size: 6em;} 
+	.btn-personal{margin:10px 15px;}
+}
